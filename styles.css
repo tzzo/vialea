@@ -1,0 +1,41 @@
+body {
+  background: black url('./assets/bg.png') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.logo {
+  width: 250px;
+}
+
+.social-wrap {
+  padding-top: 32px;
+}
+
+.social-link {
+  padding: 0 8px;
+}
+
+.social-link:hover svg path {
+  fill: rgb(185, 185, 185);
+}
+
+h1 {
+  color: white;
+  font-family: 'Helvetica';
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 26px;
+  padding-bottom: 8px;
+  letter-spacing: 0.8px;
+}
+
+.iframe {
+  max-width: 600px;
+}
